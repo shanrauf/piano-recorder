@@ -1,0 +1,7 @@
+node_modules/
+target/
+yarn.lock
+.shadow-cljs/
+.lsp
+.clj-kondo
+.shadow-cljs

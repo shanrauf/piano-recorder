@@ -1,0 +1,21 @@
+{
+  "name": "piano-recorder",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "shadow-cljs watch app",
+    "compile": "shadow-cljs compile app",
+    "build": "shadow-cljs release app",
+    "repl": "shadow-cljs cljs-repl app"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "^2.10.12"
+  },
+  "dependencies": {
+    "midi": "^2.0.0",
+    "naudiodon": "^2.3.6"
+  }
+}
